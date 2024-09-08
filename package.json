@@ -1,0 +1,33 @@
+{
+  "name": "co2-backend",
+  "version": "1.0.0",
+  "description": "A collection of backend services and utilities supporting the co2Exist application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaygeCodeHub/co2-backend.git"
+  },
+  "keywords": [
+    "co2"
+  ],
+  "author": "Aditya Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaygeCodeHub/co2-backend/issues"
+  },
+  "homepage": "https://github.com/SaygeCodeHub/co2-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
